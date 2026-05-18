@@ -15,7 +15,6 @@ function pariODispari() {
     let choiceTypeG2 = (choiceTypeG1 === "pari")? "dispari" : "pari";
      alert ("Giocatore 2 di conseguenza tu avrai " + choiceTypeG2);
 } 
-
 pariODispari();
 
 //ora farò dare i numeri ai due giocatori
@@ -24,8 +23,13 @@ const numeroG1 = Math.floor(Math.random() * 5) +1;
 const numeroG2 = Math.floor(Math.random() * 5) +1;
 const somma = numeroG1 + numeroG2;
 
-let result;
-if (somma % 2 === 0){
-    victory 
+return somma;
 }
-}
+
+console.log(buttiamoGiuINumeri());
+
+// let result;
+// if (somma % 2 === 0){
+//     victory 
+// }
+// }
