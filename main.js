@@ -1,5 +1,9 @@
+
+//prompt per chiedere all'utente una parola
 const word = prompt("scrivi una sola parola");
 
+
+//verifica del prompt che sia una sola parola e non numeri o appunto più parole
 if (word === "") {
     alert ("ERRORE: Non hai inserito nulla!");
 } else if (word.includes(" ")) {
