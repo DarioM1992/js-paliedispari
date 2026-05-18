@@ -4,3 +4,13 @@
 //Sommare le due cifre randomiche e capire se il risultato è appunto pari o dispari
 //Dire chi ha vinto dei due utenti
 
+function pariODispari() {
+    let choiceType = prompt("Scegli: pari o dispari!")
+    if (choiceType !== "pari" && choiceType !== "dispari"){
+    alert ("ERRORE: devi per forza scegliere tra pari o dispari");
+    } else {
+    alert ("OK!Hai scelto " + choiceType );
+    }
+} 
+
+pariODispari();
