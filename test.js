@@ -9,9 +9,12 @@ function pariODispari() {
     if (choiceTypeG1 !== "pari" && choiceTypeG1 !== "dispari"){
     alert ("ERRORE: devi per forza scegliere tra pari o dispari");
     } else {
-    alert ("OK!Hai scelto " + choiceType );
+    alert ("OK!Hai scelto " + choiceTypeG1 );
     }
+    let choiceTypeG2 = (choiceTypeG1 === "pari")? "dispari" : "pari";
+     alert ("Giocatore 2 di conseguenza tu avrai " + choiceTypeG2);
 } 
 
 pariODispari();
 
+//ora dovrei aggiungere che se la scelta di G1 è pari automaticamente la scelta del G2 + dispari 
