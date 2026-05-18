@@ -14,22 +14,27 @@ function pariODispari() {
     //ora dovrei aggiungere che se la scelta di G1 è pari automaticamente la scelta del G2 + dispari 
     let choiceTypeG2 = (choiceTypeG1 === "pari")? "dispari" : "pari";
      alert ("Giocatore 2 di conseguenza tu avrai " + choiceTypeG2);
-} 
-pariODispari();
+
+
 
 //ora farò dare i numeri ai due giocatori
-function buttiamoGiuINumeri (){
 const numeroG1 = Math.floor(Math.random() * 5) +1;
 const numeroG2 = Math.floor(Math.random() * 5) +1;
 const somma = numeroG1 + numeroG2;
+ 
 
-return somma;
+if (somma % 2 === 0){
+    if (choiceTypeG1 === "pari"){
+    alert ("Vince il giocatore 1")
+    } else {
+        alert("Vince il giocatore 2")
+    }
+} else {
+    if (choiceTypeG1 === "dispari"){
+    alert ("Vince il giocatore 1")
+    } else {
+        alert("Vince il giocatore 2")
+    }
 }
-
-console.log(buttiamoGiuINumeri());
-
-// let result;
-// if (somma % 2 === 0){
-//     victory 
-// }
-// }
+}
+pariODispari();
