@@ -5,8 +5,8 @@
 //Dire chi ha vinto dei due utenti
 
 function pariODispari() {
-    let choiceType = prompt("Scegli: pari o dispari!")
-    if (choiceType !== "pari" && choiceType !== "dispari"){
+    let choiceTypeG1 = prompt("Scegli: pari o dispari!")
+    if (choiceTypeG1 !== "pari" && choiceTypeG1 !== "dispari"){
     alert ("ERRORE: devi per forza scegliere tra pari o dispari");
     } else {
     alert ("OK!Hai scelto " + choiceType );
@@ -14,3 +14,4 @@ function pariODispari() {
 } 
 
 pariODispari();
+
