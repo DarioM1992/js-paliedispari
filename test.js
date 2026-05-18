@@ -22,7 +22,8 @@ const numeroG1 = Math.floor(Math.random() * 5) +1;
 const numeroG2 = Math.floor(Math.random() * 5) +1;
 const somma = numeroG1 + numeroG2;
  
-
+console.log({ numeroG1, numeroG2, somma });
+// calcolo col modulo per dare la vittoria a uno dei due
 if (somma % 2 === 0){
     if (choiceTypeG1 === "pari"){
     alert ("Vince il giocatore 1")
