@@ -18,3 +18,14 @@ function pariODispari() {
 
 pariODispari();
 
+//ora farò dare i numeri ai due giocatori
+function buttiamoGiuINumeri (){
+const numeroG1 = Math.floor(Math.random() * 5) +1;
+const numeroG2 = Math.floor(Math.random() * 5) +1;
+const somma = numeroG1 + numeroG2;
+
+let result;
+if (somma % 2 === 0){
+    victory 
+}
+}
