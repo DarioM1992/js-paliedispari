@@ -23,12 +23,7 @@ function checkWord() {
     for(let i = word.length - 1; i >= 0; i--) {
         palindromicWord += word[i];
     }
-
-    if (word === palindromicWord) {
-        return true;
-    } else {
-        return false;
-    }
+ return word === palindromicWord ;
 }
 console.log(checkWord());
 
